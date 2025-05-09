@@ -1,0 +1,97 @@
+/* body{
+    background-color: green;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#herosection{
+    background-image: url('../Media/IMG-20230217-WA0003.jpg');
+    /* background-image: linear-gradient(rgba(0,0,0.5), rgba(0,0,0.5))url('../Media/IMG-20230217-WA0003.jpg'); */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    text-align: center;
+}
+
+.socials{
+    margin-top: 100px;
+}
+
+.socials a img{
+    width: 40px;
+}
+
+#herosection h1{
+    color: red;
+    font-size: 2.5rem;
+    padding-top: 200px;
+}
+
+#herosection p{
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.items{
+    background-color: wheat;
+
+}
+
+.items-text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-shadow: 6px 7px 8px rgba(0,0,0,.7);
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.card img{
+width: 100%;
+}
+
+.card h3, .card p{
+    margin-bottom: 10px;
+}
+
+.new{
+    color: green;
+    padding-right: 10px;
+}
+.old{
+    color: red;
+    text-decoration: line-through;
+}
+
+.card button{
+    background-color: #592600;
+    color: white;
+    width: 90px;
+    height: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
